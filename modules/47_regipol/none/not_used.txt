@@ -48,3 +48,5 @@ cm_startyear,input,questionnaire
 pm_eta_conv,input,questionnaire
 cm_EnSecScen,input,questionnaire
 pm_tau_pe_tax,input,questionnaire
+cm_cesTax,input,questionnaire
+pm_tau_ces_tax,input,questionnaire
