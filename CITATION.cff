@@ -162,6 +162,11 @@ authors:
   given-names:  "Falko"
   affiliation: "Potsdam Institute for Climate Impact Research"
 
+- family-names: "Weigmann"
+  given-names:  "Pascal"
+  orcid:  https://orcid.org/0000-0001-8801-173X
+  affiliation: "Potsdam Institute for Climate Impact Research"
+
 
 title: REMIND - REgional Model of INvestments and Development
 version: "2.2.0"
