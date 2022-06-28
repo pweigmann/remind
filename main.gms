@@ -85,9 +85,9 @@
 * 
 * Regionscode: 62eff8f7
 * 
-* Input data revision: 6.304
+* Input data revision: 6.311
 * 
-* Last modification (input data): Thu May 19 12:35:05 2022
+* Last modification (input data): Thu Jun 23 10:11:30 2022
 * 
 *###################### R SECTION END (VERSION INFO) ###########################
 
@@ -598,6 +598,7 @@ cm_deuCDRmax = -1; !! def = -1
 *--------------------flags------------------------------------------------------------
 $SETGLOBAL cm_SlowConvergence  off        !! def = off
 $setGlobal cm_nash_mode  parallel      !! def = parallel
+$SetGlobal cm_quick_mode  off          !! def = off
 $setGLobal cm_debug_preloop  off !! def = off
 $setGlobal c_EARLYRETIRE       on         !! def = on
 $setGlobal cm_OILRETIRE  on        !! def = on
