@@ -51,4 +51,10 @@ vm_cesIO.lo(t,regi_dyn29(regi),in_industry_dyn37(in))$(
                                                   0 eq vm_cesIO.lo(t,regi,in) )
   = sm_eps;
 
+!! Fix industry output for bal scenario
+$ifthen.bal_scenario "%cm_import_EU%" == "bal"   !! cm_import_EU
+  vm_cesIO.fx(t,regi,in)$( p37_industry_quantity_targets(t,regi,in) )
+  = p37_industry_quantity_targets(t,regi,in);
+$endif.bal_scenario
+
 *** EOF ./modules/37_industry/subsectors/bounds.gms
